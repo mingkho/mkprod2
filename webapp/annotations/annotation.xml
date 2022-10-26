@@ -11,7 +11,7 @@
                 <Annotation Term="UI.LineItem">
                     <Collection>
                         <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="ProductId"/>
+                            <PropertyValue Property="Label" String="Product ID"/>
                             <PropertyValue Property="Value" Path="ProductId"/>
                         </Record>
                         <Record Type="UI.DataField">
@@ -19,15 +19,15 @@
                             <PropertyValue Property="Value" Path="Category"/>
                         </Record>
                         <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="CategoryName"/>
+                            <PropertyValue Property="Label" String="Category Name"/>
                             <PropertyValue Property="Value" Path="CategoryName"/>
                         </Record>
                         <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="CurrencyCode"/>
+                            <PropertyValue Property="Label" String="Currency Code"/>
                             <PropertyValue Property="Value" Path="CurrencyCode"/>
                         </Record>
                         <Record Type="UI.DataField">
-                            <PropertyValue Property="Label" String="DimensionDepth"/>
+                            <PropertyValue Property="Label" String="Dimension Depth"/>
                             <PropertyValue Property="Value" Path="DimensionDepth"/>
                         </Record>
                     </Collection>
