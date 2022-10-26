@@ -5,12 +5,12 @@ service:
   buildToolVersion: "MBTJ8N14"
 stages:
   Build:
-    npmExecuteLint: true
+    npmExecuteLint: false
   Additional Unit Tests:
     npmExecuteScripts: false
     karmaExecuteTests: false
   Malware Scan:
-    malwareExecuteScan: true
+    malwareExecuteScan: false
   Acceptance:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.sap.hana.ondemand.com"
