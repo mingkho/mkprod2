@@ -8,12 +8,12 @@ service:
       credentialId: "staging-cc"
 stages:
   Build:
-    npmExecuteLint: false
+    npmExecuteLint: true
   Additional Unit Tests:
     npmExecuteScripts: false
     karmaExecuteTests: false
   Malware Scan:
-    malwareExecuteScan: false
+    malwareExecuteScan: true
   Compliance:
     sonarExecuteScan: false
   Release:
@@ -35,5 +35,5 @@ steps:
     uploadCredentialsId: "abapja2"
     abapPackage: "ZSGPACK"
     applicationName: "ZMKPROD2"
-    applicationDescription: "MK Prod 2"
+    applicationDescription: "MK Fiori App"
     transportRequestId: "JA1K900037"
